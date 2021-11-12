@@ -12,7 +12,7 @@ router.post("/register", uploads.single("file"), (req, res) => {
   if (!img) {
     res.status(400).json({ error: "Please enter file" });
   }
-  const imgname = req.file.originalname;
+  const imgpath = `posts/${req.file.originalname}`;
 
   // Regex for email
   const testMail =
