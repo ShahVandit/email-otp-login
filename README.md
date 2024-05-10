@@ -1,6 +1,6 @@
 # email-otp-login
 
-##Dependencies:-
+## Dependencies:-
 - speakeasy(otp generation)
 - nodemailer(mailing the otp)
 - express js
